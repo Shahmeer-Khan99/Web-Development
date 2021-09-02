@@ -1,0 +1,22 @@
+body {
+    margin : 0 0;
+    background-color: #0f0729;
+}
+
+button{
+    display : block;
+    margin: 300px auto;
+    padding : 11px 30px;
+    background-color: transparent;
+    border: 2px solid #d4401c;
+    color : #d4401c;
+    transition : border 0.3s , color 0.3s , transform 0.3s , box-shadow 0.3s;
+}
+
+button:hover{
+    border : 2px solid #e6c449;
+    color : white;
+    transform : translate(0px , -10px);
+    box-shadow : 0em 0.5em 0.5em -0.4em #e6c449;
+    cursor : pointer;
+}
